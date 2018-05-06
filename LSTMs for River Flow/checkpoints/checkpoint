@@ -1,0 +1,2 @@
+model_checkpoint_path: "Multi-Step_LSTMforPredictingLabeFlow"
+all_model_checkpoint_paths: "Multi-Step_LSTMforPredictingLabeFlow"
