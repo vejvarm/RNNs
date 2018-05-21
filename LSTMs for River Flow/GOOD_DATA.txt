@@ -1,0 +1,47 @@
+## Small data (Elbe flow)
+One-step:
+small data without dropout - 
+small data with input dropout (0.8) - 20180514-212424 - bad
+small data with output dropout (0.8) - 20180514-212612 - good
+small data with output dropout (0.4) - 20180514-212755 - bad
+small data with reccurent dropout (0.8) - 20180514-212957 - good
+small data with input (0.8) and reccurent (0.8) dropout - 20180514-213519 - bad
+small data without dropout - 20180514-215750 - not bad
+
+Multi-step:
+small data 4 steps without dropout - 20180514-221141 - bad
+small data 4 steps with input dropout (0.8) - 20180514-221958 - bad
+
+nice overfitting example - 20180514-224234 - 
+overfitting example with input dropout (0.5) - 20180514-224959 - still overfitted but better !!!
+overfitting example with input & output dropout (0.5) - 20180514-225215 - still overfitted but better
+overfitting example with recurrent dropout (0.5) - 20180514-225636 - not helping with overfitting
+overfitting example with input dropout (0.2) - 20180514-230003 -  too much
+
+
+## Big data (Saugeen river)
+One-step:
+same params as for small data - 20180514-230404 - good
+
+Multi-step:
+same params as for small data - 20180514-231507 - VALIDATION Error: 0.237645
+same params as for small data with 4 lstm layers - 20180514-231937 - VALIDATION Error: 0.239348
+same params as for small data with 4 lstm layers and hidden size 64 - 20180514-232517 - VALIDATION Error: 0.234321
+same params as for small data with 4 lstm layers, hidden size 64 and delay 64 - 20180514-233109
+ - VALIDATION Error: 0.235271
+same params as for small data with 4 lstm layers, hidden size 64 and delay 64 (100 epochs) - 20180515-000010 - VALIDATION Error: 0.352013
+
+
+
+ - do závìru napsat, že lze hyperparametry zkusit vyladit pomocí grid search nebo hyperopt
+	- https://stackoverflow.com/questions/44181511/hyperparameter-tune-for-tensorflow
+	- https://hyperopt.github.io/hyperopt/
+
+
+An over
+
+
+
+
+
+
