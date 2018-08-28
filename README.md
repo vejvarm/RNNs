@@ -1,4 +1,4 @@
-<h1>Recurrent neural network using LSTM architecture</h1>
+<h1>Time-series prediction using LSTM architecture Recurrent neural network</h1>
 <h2>Dissertation project at <a href="https://www.vscht.cz/?jazyk=en">UCT Prague</a></h2>
 <p>
   Implemented using:
