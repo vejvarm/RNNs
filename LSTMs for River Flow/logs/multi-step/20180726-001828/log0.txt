@@ -1,0 +1,30 @@
+Timestamp: 20180726-001828
+_____________________________________________
+Net parameters:
+
+Input size ......................    1
+Number of classes ...............    1
+Target shift ....................    1
+Number of stacked LSTM layers ...    2
+Hidden state size ...............    4
+Delay ...........................    8
+Number of prediciton steps.......    4
+Training batch size .............   16
+Testing batch size ..............    8
+Validation batch size ...........    4
+Maximum number of epochs ........  200
+Early stopping epochs ...........   20
+Check (save) every (epochs)......   10
+Initial learning rate ...........    0.0010
+Dropout ......................... False
+_____________________________________________
+Results: 
+
+Best epoch ......................  190
+TRAINING Loss ...................    0.357458
+TRAINING Error ..................    0.281763
+TESTING Loss ....................    0.297875
+TESTING Error ...................    0.257220
+VALIDATION Loss .................    0.322473
+VALIDATION Error ................    0.252322
+_____________________________________________
